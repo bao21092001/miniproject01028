@@ -1,0 +1,13 @@
+package com.baolnpc01028_miniproject.service;
+
+import java.util.List;
+
+import com.baolnpc01028_miniproject.entity.Role;
+
+
+
+public interface RoleService {
+	
+	public List<Role> findAll();
+
+}
